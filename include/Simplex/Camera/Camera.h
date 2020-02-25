@@ -33,7 +33,8 @@ class SimplexDLL Camera
 	matrix4 m_m4Projection = matrix4(1.0f); //Projection Matrix
 	matrix4 m_m4View = matrix4(1.0f); //View matrix
 
-	bool m_bInternalCalculation = true; //use of this flag to accept other matrices instead of calculating them
+	bool m_bInternalView = true; //use of this flag to accept other matrices instead of calculating them
+	bool m_bInternalProjection = true; //use of this flag to accept other matrices instead of calculating them
 
 public:
 	/*
